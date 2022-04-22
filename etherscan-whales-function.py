@@ -14,7 +14,7 @@ from etherscan import Etherscan
 # In a python Lambda, the runtime loads the handler code as a module; so code in the top level
 # of the module occurs once, during cold start.
 print("Lambda Handler starting up")
-eth = Etherscan("Y3WUGXJMF8F755634XHTWAVIDA23IRHZWB") # key in quotation marks
+eth = Etherscan("XXXXXXXXXXXXXXX") # key in quotation marks
 
 
 # calls made to get whales' ETH balance
