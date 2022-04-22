@@ -15,7 +15,7 @@ today = datetime.date.today().strftime('%Y-%m-%d')
 # In a python Lambda, the runtime loads the handler code as a module; so code in the top level
 # of the module occurs once, during cold start.
 print("Lambda Handler starting up")
-eth = Etherscan("Y3WUGXJMF8F755634XHTWAVIDA23IRHZWB") # key in quotation marks
+eth = Etherscan("XXXXXXXXXXXXXXX") # key in quotation marks
 
 # call made to get ETH stats
 total_eth_supply = eth.get_total_eth_supply()
